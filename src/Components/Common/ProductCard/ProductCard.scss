@@ -1,0 +1,29 @@
+.card-container {
+    width: 340px;
+    height: 480px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    text-align: left;
+
+    img {
+        width: 340px;
+        height: 340px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .bottom-sec {
+        padding: 10px;
+
+        h5 {
+            margin: 0;
+        }
+
+        .description {
+            font-size: 12px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            width: 300px;
+        }
+    }
+}

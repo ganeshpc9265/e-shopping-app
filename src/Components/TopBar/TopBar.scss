@@ -1,0 +1,30 @@
+.topbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10rem;
+
+    h1 {
+        width: 20%;
+        text-align: left;
+    }
+
+    input {
+        width: 50%;
+        border-radius: 5px;
+        height: 30px;
+    }
+
+    .nav-items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 40%;
+
+        span {
+            cursor: pointer;
+        }
+    }
+}
